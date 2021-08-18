@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Delete Payment Method</name>
+   <tag></tag>
+   <elementGuidId>44f5c525-86b7-4ed8-94ef-86cface87bdd</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
+   <katalonVersion>7.7.2</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>DELETE</restRequestMethod>
+   <restUrl>${BO-Silvi-Staging}/backoffice/payment-method/${paymentId}</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.BO-Silvi-Staging</defaultValue>
+      <description></description>
+      <id>dc07bb0a-86d5-4dfe-8c45-71bdd81dcbd4</id>
+      <masked>false</masked>
+      <name>BO-Silvi-Staging</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.paymentId</defaultValue>
+      <description></description>
+      <id>5a188364-1e7a-45e3-bf79-b7f47f4ff3dc</id>
+      <masked>false</masked>
+      <name>paymentId</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

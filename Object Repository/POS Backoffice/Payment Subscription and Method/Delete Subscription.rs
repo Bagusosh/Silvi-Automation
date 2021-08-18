@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Delete Subscription</name>
+   <tag></tag>
+   <elementGuidId>6c40cf32-7631-4fa1-9c64-d7122867193a</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
+   <katalonVersion>7.7.2</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>DELETE</restRequestMethod>
+   <restUrl>${BO-Silvi-Staging}/backoffice/subscription/${subscriptionId}</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.BO-Silvi-Staging</defaultValue>
+      <description></description>
+      <id>a46eda41-dd01-4bcb-9bc3-720853370529</id>
+      <masked>false</masked>
+      <name>BO-Silvi-Staging</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.subscriptionId</defaultValue>
+      <description></description>
+      <id>d323efb5-3e6d-4b10-8b37-def8c38de3af</id>
+      <masked>false</masked>
+      <name>subscriptionId</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

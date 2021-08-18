@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Delete Product</name>
+   <tag></tag>
+   <elementGuidId>ab0489c6-9f5a-4cbc-b2a4-1da3106c45a3</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
+   <katalonVersion>7.7.2</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>DELETE</restRequestMethod>
+   <restUrl>${Silvi-V2-Staging}/products/${productId}</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.Silvi-V2-Staging</defaultValue>
+      <description></description>
+      <id>bed51aac-a1d8-49ee-a8a7-a4ef0d4fabc6</id>
+      <masked>false</masked>
+      <name>Silvi-V2-Staging</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.productId</defaultValue>
+      <description></description>
+      <id>bf3c954b-9dde-4718-a290-034068cb104d</id>
+      <masked>false</masked>
+      <name>productId</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

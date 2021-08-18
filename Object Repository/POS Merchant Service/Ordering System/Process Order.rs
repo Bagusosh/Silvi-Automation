@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Process Order</name>
+   <tag></tag>
+   <elementGuidId>c7d5950d-268b-4d24-a29d-9be43623bfd7</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
+   <katalonVersion>7.7.2</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>PUT</restRequestMethod>
+   <restUrl>${Silvi-Staging}/merchant/${userId}/order/${orderId}/processing?billing_type=INVOICE</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.Silvi-Staging</defaultValue>
+      <description></description>
+      <id>85668c6d-0648-4a29-8ff8-1a89c8f8c434</id>
+      <masked>false</masked>
+      <name>Silvi-Staging</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.userId</defaultValue>
+      <description></description>
+      <id>42dbdb73-2180-48ce-b017-4cf2e736eab4</id>
+      <masked>false</masked>
+      <name>userId</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.orderId</defaultValue>
+      <description></description>
+      <id>b8e991d6-a2fb-438d-850c-9f6acce4fd26</id>
+      <masked>false</masked>
+      <name>orderId</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

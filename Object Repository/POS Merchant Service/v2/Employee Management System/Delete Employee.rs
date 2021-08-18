@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Delete Employee</name>
+   <tag></tag>
+   <elementGuidId>4d41402a-a179-49a5-b4d8-74b3d9ad57be</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
+   <katalonVersion>7.7.2</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>DELETE</restRequestMethod>
+   <restUrl>${Silvi-Staging}merchant/${userId}/employee/${employeeId}</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.Silvi-Staging</defaultValue>
+      <description></description>
+      <id>81eb8a6f-9808-4839-9ae9-8ee9e74a557e</id>
+      <masked>false</masked>
+      <name>Silvi-Staging</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.userId</defaultValue>
+      <description></description>
+      <id>37bf1dc5-f1c3-460b-9d48-81b543e49bb0</id>
+      <masked>false</masked>
+      <name>userId</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.employeeId</defaultValue>
+      <description></description>
+      <id>384529d7-abd0-4a07-a4e6-ab4815fdc3a2</id>
+      <masked>false</masked>
+      <name>employeeId</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

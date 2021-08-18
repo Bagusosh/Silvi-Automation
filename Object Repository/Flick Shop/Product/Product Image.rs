@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Product Image</name>
+   <tag></tag>
+   <elementGuidId>5f23bd32-a1e0-4e85-b1e8-9297424a6c8a</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
+   <katalonVersion>7.7.2</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>GET</restRequestMethod>
+   <restUrl>${FlickShop-Staging}/images/${imageFileName}</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.FlickShop-Staging</defaultValue>
+      <description></description>
+      <id>d73ad895-3889-49ae-9530-1d17feee319d</id>
+      <masked>false</masked>
+      <name>FlickShop-Staging</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.imageFileName</defaultValue>
+      <description></description>
+      <id>8d961059-e680-4af9-ac8e-04b3fdf893d5</id>
+      <masked>false</masked>
+      <name>imageFileName</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

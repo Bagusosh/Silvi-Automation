@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>All Product</name>
+   <tag></tag>
+   <elementGuidId>f96f564e-dd51-4e2d-a264-898fd13a3cf2</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
+   <katalonVersion>7.7.2</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>GET</restRequestMethod>
+   <restUrl>${FlickShop-Staging}/v1/product?categoryId&amp;productName&amp;merchantId=${merchantId}&amp;limit&amp;page</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.FlickShop-Staging</defaultValue>
+      <description></description>
+      <id>9be30939-ce2f-4e14-b409-f31e387c14bf</id>
+      <masked>false</masked>
+      <name>FlickShop-Staging</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.merchantId</defaultValue>
+      <description></description>
+      <id>a516ae12-58e4-4b47-a48b-c842abb19b77</id>
+      <masked>false</masked>
+      <name>merchantId</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

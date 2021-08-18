@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Acquisition</name>
+   <tag></tag>
+   <elementGuidId>0e9cb8f9-e98f-44ab-82bb-87e4b98e3919</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
+   <katalonVersion>7.7.2</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>GET</restRequestMethod>
+   <restUrl>${BO-Silvi-Staging}/backoffice/acquisition/${acquisitionId}</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.BO-Silvi-Staging</defaultValue>
+      <description></description>
+      <id>c8074177-5d87-410f-9b79-6636d2a8dd62</id>
+      <masked>false</masked>
+      <name>BO-Silvi-Staging</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.acquisitionId</defaultValue>
+      <description></description>
+      <id>12fe417b-eda6-4071-92d8-a877f5c9a87e</id>
+      <masked>false</masked>
+      <name>acquisitionId</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

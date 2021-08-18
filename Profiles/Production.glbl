@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Production</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://bo.flick.id/v1'</initValue>
+      <name>BOProd</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://pos.api.flick.id/bo/v1'</initValue>
+      <name>BOSilviProd</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'e3e91e93-d0b8-41e0-a1b7-ac8d6c39c69f'</initValue>
+      <name>merchantId</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>BOBearerToken</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

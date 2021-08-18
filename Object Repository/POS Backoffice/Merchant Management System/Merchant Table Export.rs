@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Merchant Table Export</name>
+   <tag></tag>
+   <elementGuidId>a4f4d8cd-8fe0-4039-abe4-46731c64bf91</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
+   <katalonVersion>7.7.2</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>${BO-Silvi-Staging}/backoffice/merchant/${merchantId}/config/table/export-file</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.BO-Silvi-Staging</defaultValue>
+      <description></description>
+      <id>05063d32-5952-4f7a-ad3f-c1fce61342b2</id>
+      <masked>false</masked>
+      <name>BO-Silvi-Staging</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.merchantId</defaultValue>
+      <description></description>
+      <id>c5d4e743-7d79-4653-80a4-d946b80e5a91</id>
+      <masked>false</masked>
+      <name>merchantId</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>
